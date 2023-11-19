@@ -1,5 +1,8 @@
+# setup file use for install local packages in virtual environment
+# like our local package is DimondPricePrediction
+
 import os
-from pathlib import Path
+from pathlib import path
 
 
 package_name = "DimondPricePrediction"
@@ -37,3 +40,11 @@ for filepath in list_of_files:
     else:
         print ("file is already exist")
 
+
+
+#for install 
+# python setup.py install
+# or
+# another way you can mention -e . in your requirements.txt file and you can run
+
+# pip install -r requirements.txt
